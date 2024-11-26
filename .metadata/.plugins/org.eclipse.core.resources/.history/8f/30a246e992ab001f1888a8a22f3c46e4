@@ -1,0 +1,19 @@
+package scanner;
+//1번 : 입력 클래스(Scanner)
+
+import java.util.Scanner;
+
+public class ScannerTest01 {
+	public static void main(String[] args) {
+		
+		System.out.println();
+		
+		String name = "노형우";
+		
+		//자동 import 단축키 : ctrl + shift + s + o
+		Scanner sc = new Scanner(System.in);
+		sc.next();
+		
+		
+	}
+}
