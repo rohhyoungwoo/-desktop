@@ -17,8 +17,8 @@ public class OperTask01 {
 		//5. nextLine() : 버퍼 비우기
 		
 		Scanner sc = new Scanner(System.in);
-		int num1 = 0, num2 = 0;
-				
+//		int num1 = 0, num2 = 0;
+//				
 		System.out.println(" 두 개의 정수 입력 : ");
 		num1 = sc.nextInt();
 		num2 = sc.nextInt();
@@ -30,7 +30,7 @@ public class OperTask01 {
 		// 평균 = 총합 / 개수
 		//1. 변수 선언 합계, 평균
 		//2. 출력
-//		final int num2 = 2;
+		final int num2 = 2;
 		int sum = num1 + num2;
 		double avg = sum / 2;		// 정수 / 정수 =정수
 		System.out.printf("평균은 %.2f", avg);
