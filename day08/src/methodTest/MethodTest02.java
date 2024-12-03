@@ -20,6 +20,10 @@ public class MethodTest02 {
       System.out.println(mt1);
       mt1.add(10, 10);
 
+      
+      System.out.println(mt.printSum(1, 5));
+      
+      
    }
 
    void add(int num1, int num2) {
@@ -33,4 +37,29 @@ public class MethodTest02 {
    // 매개변수 => int num1, int num2
    // 실행할 문장 => num1출력, num2출력, num1+num2 출력
    // 리턴값 x
+   
+   
+   int printSum(int num1, int num2) {
+	   int sum = num1 + num2;
+	   return sum;
+   }
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
 }

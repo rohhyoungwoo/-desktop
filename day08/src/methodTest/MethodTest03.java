@@ -17,6 +17,8 @@ public class MethodTest03 {
 		//매개변수o, 리턴값o 메소드 syso(printNum(인수)) or 변수 = printNum());
 		System.out.println("합 :" + mt.printNum(5));
 		
+		
+		System.out.println(mt.printSum(1));
 	}
 
 	// 매개변수x, 리턴값x 메소드
@@ -63,5 +65,24 @@ public class MethodTest03 {
 		}
 		return total;
 	}
+	//매개변수 o, 리턴값o
+	//입력받은 숫자까지 총합 구하는 메소드
+	//로직구성
+	//리턴타입 - int
+	//메소드명 - printSum
+	//매개변수 - int num
+	// 총합 구할 변수선언 => 구현부
+	// return 총합;
+	
+	int printSum(int num) {
+		int sum = 0;
+		for(int i = 1; i <= num; i++) {
+			sum += i;
+		}
+		return sum;
+	}
+	
+	
+	
 	
 }

@@ -19,13 +19,13 @@ public class Task01 {
 		//6. 출력 메시지 "출력 : 입니다 "
 		
 		Scanner sc = new Scanner(System.in);
-		int num = 0;
-		System.out.println("입력 : ");
-		num = sc.nextInt();
-		if(num % 2 == 0) {
-			System.out.println("출력 : 짝수입니다");
-		}else
-		System.out.println("출력 : 홀수입니다");
+//		int num = 0;
+//		System.out.println("입력 : ");
+//		num = sc.nextInt();
+//		if(num % 2 == 0) {
+//			System.out.println("출력 : 짝수입니다");
+//		}else
+//		System.out.println("출력 : 홀수입니다");
 				
 		
 //      2. 한개의 정수를 입력받아 양수, 음수, 0인지 출력하기
@@ -45,16 +45,16 @@ public class Task01 {
 		//조건 1 (변수 > 0) 조건 2 (변수 < 0) 조건 3 (변수 = 0)
 		//출력
 		
-		int num1 = 0;
-		System.out.print("입력 : ");
-		num1 = sc.nextInt();
-		if(num1 > 0) {
-			System.out.println("출력 : 양수입니다");
-		}else if(num1 < 0){
-			System.out.println("출력 : 음수입니다");
-		}else {
-			System.out.println("출력 : 0입니다");
-		}
+//		int num1 = 0;
+//		System.out.print("입력 : ");
+//		num1 = sc.nextInt();
+//		if(num1 > 0) {
+//			System.out.println("출력 : 양수입니다");
+//		}else if(num1 < 0){
+//			System.out.println("출력 : 음수입니다");
+//		}else {
+//			System.out.println("출력 : 0입니다");
+//		}
 			
 		
 //      3. 나이를 입력받아 다음 기준으로 출력하기
@@ -95,16 +95,16 @@ public class Task01 {
 		// 가장 큰 숫자 조건식 num3 < num1 > num2
 		//5. 출력 "출력 : 조건1 조건2 조건3"
 		
-//		int num1 = 0, num2 = 0, num3 = 0;
-//		System.out.println("세 개의 정수 입력(띄어쓰기로 구분) : ");
-//		num1 = sc.nextInt();
-//		num2 = sc.nextInt();
-//		num3 = sc.nextInt();
-//		int small = (num1 < num2 && num1 < num3) ? num1 : num2;
-//		
-//		System.out.println(small);
-//		System.out.println(num1 < num2 && num1 < num3) ? "출력 : ");
+		int num1 = 0, num2 = 0, num3 = 0;
+		System.out.println("세 개의 정수 입력(띄어쓰기로 구분) : ");
+		num1 = sc.nextInt();
+		num2 = sc.nextInt();
+		num3 = sc.nextInt();
+		int small = (num1 < num2 && num1 < num3) ? num1 : num2;
 		
+		System.out.println(small);
+//		System.out.println(num1 < num2 && num1 < num3) ? "출력 : ");
+		System.out.println("결과 : " + small);
 
 
 
@@ -174,29 +174,29 @@ public class Task01 {
 //      메뉴에서 선택에 따라 작업 수행
 //      종료 시 프로그램 종료
 //
-      String msg =  "\nATM 메뉴의 번호를 선택하세요 : "
-                  + "1. 잔액 조회"
-                  + "2. 입금"
-                  + "3. 출금"
-                  + "4. 종료"
-                  + "선택 : ";
+//      String msg =  "\nATM 메뉴의 번호를 선택하세요 : "
+//                  + "1. 잔액 조회"
+//                  + "2. 입금"
+//                  + "3. 출금"
+//                  + "4. 종료"
+//                  + "선택 : ";
 
 		//1. 변수 선언 int 4개
 		//2. 출력 메시지 "msg"
       	//3. 입력 메소드 변수 = sc.nextInt();
       	//4. 출력 switch문
-		int choice = 0;
-		int money = 10000;
-		int in = 0;
-		int out = 0;
+//		int choice = 0;
+//		int money = 10000;
+//		int in = 0;
+//		int out = 0;
 //		int bank = money += in -= out;
-		choice = sc.nextInt();
+//		choice = sc.nextInt();
 		
 		//do ~ while문 사용
-		do {
-			System.out.println(msg);
-			
-		}while(choice == 1);
+//		do {
+//			System.out.println(msg);
+//			
+//		}while(choice == 1);
 		
 		
 		
