@@ -1,7 +1,0 @@
-package oper;
-//11번 : 관계연산자
-public class OperTest03 {
-	public static void main(String[] args) {
-		
-	}
-}

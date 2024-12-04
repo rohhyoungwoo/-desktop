@@ -18,6 +18,7 @@ public class TeamProject01 {
       int count = 0;
       int sum = 0;
       while (count != 10) {
+    	  System.out.println("0~9 까지 더하고 싶은 수를 적어주세요 : ");
          int num = sc.nextInt();
          if (mt.nt(num) == true) {
             ar[count] = num;
@@ -36,30 +37,19 @@ public class TeamProject01 {
 
    }
    boolean nt(int num) {
-      boolean tf = true;
-      if (num == 0) {
-         tf = true;
-      } else if (num == 1) {
-         tf = true;
-      } else if (num == 2) {
-         tf = true;
-      } else if (num == 3) {
-         tf = true;
-      } else if (num == 4) {
-         tf = true;
-      } else if (num == 5) {
-         tf = true;
-      } else if (num == 6) {
-         tf = true;
-      } else if (num == 7) {
-         tf = true;
-      } else if (num == 8) {
-         tf = true;
-      } else if (num == 9) {
-         tf = true;
-      } else {
-         tf = false;
-      }
-      return tf;
+      boolean tf;
+     
+    switch (num) {
+		case 0, 1, 2, 3, 4, 5, 6, 7, 8, 9: {
+			tf = true;
+			break;
+		}
+		default:
+			tf = false;
+			break;
+		}
+		return tf;
+      
+    
    }
 }

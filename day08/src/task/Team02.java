@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Team02 {
 	 public static void main(String[] args) {
 
-	      MethodTask mt = new MethodTask();
+	      Team02 mt = new Team02();
 	      Scanner sc = new Scanner(System.in);
 	      System.out.print("행과 열을 입력 : ");
 	      int row = sc.nextInt();
@@ -72,3 +72,5 @@ public class Team02 {
 	      }
 
 	   }
+}
+  
